@@ -1,6 +1,5 @@
 import { prisma } from '@/lib/prisma'
 import { ExpenseFormValues, GroupFormValues } from '@/lib/schemas'
-import { ActivityType, Expense } from '@prisma/client'
 import {
   ActivityType,
   Expense,

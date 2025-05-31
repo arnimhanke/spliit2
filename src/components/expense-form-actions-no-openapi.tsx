@@ -26,6 +26,7 @@ export async function extractCategoryFromTitleStatic(description: string) {
         cleanedDescription.includes("moss") ||
         cleanedDescription.includes("büsch") ||
         cleanedDescription.includes("buesch") ||
+        cleanedDescription.includes("dm") ||
         cleanedDescription.includes("bäckerei")
     ) {
         guessedCategoryId = 9
